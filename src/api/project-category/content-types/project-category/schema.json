@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_categories",
+  "info": {
+    "singularName": "project-category",
+    "pluralName": "project-categories",
+    "displayName": "ProjectCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "color": {
+      "type": "string"
+    },
+    "Projects": {
+      "type": "component",
+      "component": "project-category.projects",
+      "repeatable": true
+    }
+  }
+}

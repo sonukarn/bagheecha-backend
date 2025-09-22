@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_contact_info_contact_infos",
+  "info": {
+    "displayName": "contact-info"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "phone",
+        "email",
+        "location"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "component": "contact-page.contact-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

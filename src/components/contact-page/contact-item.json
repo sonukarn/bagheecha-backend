@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_contact_page_contact_items",
+  "info": {
+    "displayName": "contact-item"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

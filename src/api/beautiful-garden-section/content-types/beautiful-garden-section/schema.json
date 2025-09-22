@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beautiful_garden_sections",
+  "info": {
+    "singularName": "beautiful-garden-section",
+    "pluralName": "beautiful-garden-sections",
+    "displayName": "BeautifulGardenSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "CardService": {
+      "type": "component",
+      "component": "card-service.card-service",
+      "repeatable": true
+    }
+  }
+}

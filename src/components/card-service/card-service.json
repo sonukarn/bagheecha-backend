@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_card_service_card_services",
+  "info": {
+    "displayName": "Card Service"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

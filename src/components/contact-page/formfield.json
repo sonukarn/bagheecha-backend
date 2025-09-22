@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_contact_page_formfields",
+  "info": {
+    "displayName": "formfield"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "phone",
+        "date",
+        "time",
+        "textarea"
+      ]
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

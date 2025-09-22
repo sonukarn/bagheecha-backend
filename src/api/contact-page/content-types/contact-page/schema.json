@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "contactPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "formTitle": {
+      "type": "string"
+    },
+    "formSubtitle": {
+      "type": "string"
+    },
+    "formFields": {
+      "type": "component",
+      "component": "contact-page.formfield",
+      "repeatable": true
+    },
+    "contactInfo": {
+      "type": "component",
+      "component": "contact-info.contact-info",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_service_bullets",
+  "info": {
+    "displayName": "Bullet"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

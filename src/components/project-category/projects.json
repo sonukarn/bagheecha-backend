@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_project_category_projects",
+  "info": {
+    "displayName": "Projects"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "ProjectStatus": {
+      "type": "enumeration",
+      "enum": [
+        "completed",
+        "ongoing"
+      ]
+    }
+  },
+  "config": {}
+}
